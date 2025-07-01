@@ -61,4 +61,8 @@ const ProkerDetailPage: NextPage<ProkerDetailProps> = ({ params }) => {
   );
 };
 
+<<<<<<< HEAD
 export default ProkerDetailPage;
+=======
+export default ProkerDetailPage;
+>>>>>>> 39097c445833bb6fc35e4c8e3f2342d1f8731724
