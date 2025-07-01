@@ -1,0 +1,38 @@
+[
+  {
+    "tanggal": "2025-07-21",
+    "hari": "Senin",
+    "tugas": {
+      "balai_desa": [
+        { "nama": "Andi", "foto": "/images/andi.jpg" },
+        { "nama": "Budi", "foto": "/images/budi.jpg" }
+      ],
+      "masak": [
+        { "nama": "Cinta", "foto": "/images/cinta.jpg" },
+        { "nama": "Dina", "foto": "/images/dina.jpg" },
+        { "nama": "Eka", "foto": "/images/eka.jpg" },
+        { "nama": "Fani", "foto": "/images/fani.jpg" }
+      ],
+      "lain_lain": []
+    }
+  },
+  {
+    "tanggal": "2025-07-22",
+    "hari": "Selasa",
+    "tugas": {
+      "balai_desa": [
+        { "nama": "Gilang", "foto": "/images/gilang.jpg" },
+        { "nama": "Hani", "foto": "/images/hani.jpg" }
+      ],
+      "masak": [
+        { "nama": "Indah", "foto": "/images/indah.jpg" },
+        { "nama": "Joko", "foto": "/images/joko.jpg" },
+        { "nama": "Kiki", "foto": "/images/kiki.jpg" },
+        { "nama": "Lina", "foto": "/images/lina.jpg" }
+      ],
+      "lain_lain": [
+        { "nama": "Andi", "foto": "/images/andi.jpg", "keterangan": "Rapat Karang Taruna" }
+      ]
+    }
+  }
+]

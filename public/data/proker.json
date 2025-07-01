@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "nama": "Proker 1",
+    "gambar": "/images/proker1.jpg",
+    "catatan": "Persiapkan spanduk, konsumsi, dan surat izin untuk acara penyuluhan.",
+    "sub_kegiatan": [
+      { "nama": "Buat surat izin ke desa", "selesai": true },
+      { "nama": "Cetak spanduk", "selesai": true },
+      { "nama": "Pesan konsumsi", "selesai": false },
+      { "nama": "Siapkan materi penyuluhan", "selesai": false },
+      { "nama": "Hubungi pemateri", "selesai": false }
+    ]
+  },
+  {
+    "id": 2,
+    "nama": "Proker 2",
+    "gambar": "/images/proker2.jpg",
+    "catatan": "Alat dan bahan untuk lomba 17-an.",
+    "sub_kegiatan": [
+      { "nama": "Beli hadiah", "selesai": true },
+      { "nama": "Siapkan sound system", "selesai": true },
+      { "nama": "Buat daftar panitia", "selesai": true },
+      { "nama": "Rapat final", "selesai": false }
+    ]
+  }
+]
