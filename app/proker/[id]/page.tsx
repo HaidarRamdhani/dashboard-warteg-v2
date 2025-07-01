@@ -1,17 +1,19 @@
 'use client';
 
 import prokerData from '../../../public/data/proker.json';
-import { useState } from 'react'; 
+import { useState } from 'react';
 import { useRouter } from 'next/navigation';
+import type { NextPage } from 'next'; // Impor tipe NextPage
 
-type Props = {
-  params: { id: string };
-};
+// Definisikan tipe untuk props di luar komponen
+interface ProkerDetailProps {
+  params: {
+    id: string;
+  };
+}
 
-// TAMBAHKAN DESKRIPSI SETELAH KOMENTAR
-// @ts-expect-error Vercel build issue
-export default function ProkerDetailPage(props: Props) {
-  const { params } = props;
+// Definisikan komponen sebagai const dengan tipe NextPage<ProkerDetailProps>
+const ProkerDetailPage: NextPage<ProkerDetailProps> = ({ params }) => {
   const router = useRouter();
   const proker = prokerData.find(p => p.id === parseInt(params.id));
   
@@ -57,4 +59,6 @@ export default function ProkerDetailPage(props: Props) {
       </div>
     </div>
   );
-}
+};
+
+export default ProkerDetailPage;
