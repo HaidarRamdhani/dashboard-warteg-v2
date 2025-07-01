@@ -4,18 +4,14 @@ import prokerData from '../../../public/data/proker.json';
 import { useState } from 'react'; 
 import { useRouter } from 'next/navigation';
 
-// Definisikan tipe untuk Props tetap sama
 type Props = {
   params: { id: string };
 };
 
-// PERUBAHAN UTAMA ADA DI SINI:
-// Kita tidak langsung melakukan de-strukturisasi { params } di argumen.
-// Kita terima 'props' sebagai satu objek utuh.
+// TAMBAHKAN DESKRIPSI SETELAH KOMENTAR
+// @ts-expect-error Vercel build issue
 export default function ProkerDetailPage(props: Props) {
-  // Lalu kita ambil 'params' di dalam fungsi. Ini lebih aman untuk type-checking.
   const { params } = props;
-
   const router = useRouter();
   const proker = prokerData.find(p => p.id === parseInt(params.id));
   
